@@ -1,0 +1,12 @@
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\bin\Debug\net8.0\Softnotik.Shared.Domain.deps.json
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\bin\Debug\net8.0\Softnotik.Shared.Domain.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\bin\Debug\net8.0\Softnotik.Shared.Domain.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\Softnotik.Shared.Domain.csproj.AssemblyReference.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\Softnotik.Shared.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\Softnotik.Shared.Domain.AssemblyInfoInputs.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\Softnotik.Shared.Domain.AssemblyInfo.cs
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\Softnotik.Shared.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\Softnotik.Shared.Domain.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\refint\Softnotik.Shared.Domain.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\Softnotik.Shared.Domain.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\ref\Softnotik.Shared.Domain.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kvUz7Wbj/4I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Shared.Presentation\\Softnotik.Shared.Presentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adebayo Salami\\.nuget\\packages\\masstransit.abstractions\\8.2.1\\masstransit.abstractions.8.2.1.nupkg.sha512",
+    "C:\\Users\\Adebayo Salami\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Adebayo Salami\\.nuget\\packages\\ulid\\1.3.3\\ulid.1.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

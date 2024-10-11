@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+ZaUDow4avE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Softnotik.Modules.CustomerModule.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adebayo Salami\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Adebayo Salami\\.nuget\\packages\\ulid\\1.3.3\\ulid.1.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

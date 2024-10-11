@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softnotik", "Softnotik\Softnotik.csproj", "{F470D1A2-2607-4E10-A8EF-9B77BAB22553}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F7B1CFD2-C816-48E6-BBD3-26DAF0EED20D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softnotik.Shared.Domain", "Softnotik.Shared.Domain\Softnotik.Shared.Domain.csproj", "{CCC5FD1C-3F36-4810-9775-169773BCDD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softnotik.Shared.Application", "Softnotik.Shared.Application\Softnotik.Shared.Application.csproj", "{55944CF8-5956-4E46-B3FD-E55A807D9C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softnotik.Shared.Presentation", "Softnotik.Shared.Presentation\Softnotik.Shared.Presentation.csproj", "{6C664533-162D-455A-A798-0C55F46B3679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softnotik.Shared.Infrastructure", "Softnotik.Shared.Infrastructure\Softnotik.Shared.Infrastructure.csproj", "{FF9319D5-EA76-4F46-A56F-742B50AFDB9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{CA9DB443-9479-4C7C-910F-922E31E1F2AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{32029688-371E-4BE1-AA70-9EC0EA98633A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerModule", "CustomerModule", "{BEDC6696-F32A-4CB4-8385-8A58C0500438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softnotik.Modules.CustomerModule.Domain", "Softnotik.Modules.Customers.Domain\Softnotik.Modules.CustomerModule.Domain.csproj", "{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softnotik.Modules.CustomerModule.Application", "Softnotik.Modules.Customers.Application\Softnotik.Modules.CustomerModule.Application.csproj", "{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softnotik.Modules.CustomerModule.Presentation", "Softnotik.Modules.Customers.Presentation\Softnotik.Modules.CustomerModule.Presentation.csproj", "{1598C120-9283-4936-80C4-983108E4F489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softnotik.Modules.CustomerModule.Infrastructure", "Softnotik.Modules.Customers.Infrastructure\Softnotik.Modules.CustomerModule.Infrastructure.csproj", "{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F470D1A2-2607-4E10-A8EF-9B77BAB22553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F470D1A2-2607-4E10-A8EF-9B77BAB22553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F470D1A2-2607-4E10-A8EF-9B77BAB22553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F470D1A2-2607-4E10-A8EF-9B77BAB22553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC5FD1C-3F36-4810-9775-169773BCDD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC5FD1C-3F36-4810-9775-169773BCDD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC5FD1C-3F36-4810-9775-169773BCDD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC5FD1C-3F36-4810-9775-169773BCDD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55944CF8-5956-4E46-B3FD-E55A807D9C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55944CF8-5956-4E46-B3FD-E55A807D9C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55944CF8-5956-4E46-B3FD-E55A807D9C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55944CF8-5956-4E46-B3FD-E55A807D9C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C664533-162D-455A-A798-0C55F46B3679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C664533-162D-455A-A798-0C55F46B3679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C664533-162D-455A-A798-0C55F46B3679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C664533-162D-455A-A798-0C55F46B3679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9319D5-EA76-4F46-A56F-742B50AFDB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9319D5-EA76-4F46-A56F-742B50AFDB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9319D5-EA76-4F46-A56F-742B50AFDB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9319D5-EA76-4F46-A56F-742B50AFDB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1598C120-9283-4936-80C4-983108E4F489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1598C120-9283-4936-80C4-983108E4F489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1598C120-9283-4936-80C4-983108E4F489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1598C120-9283-4936-80C4-983108E4F489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F470D1A2-2607-4E10-A8EF-9B77BAB22553} = {CA9DB443-9479-4C7C-910F-922E31E1F2AA}
+		{F7B1CFD2-C816-48E6-BBD3-26DAF0EED20D} = {CA9DB443-9479-4C7C-910F-922E31E1F2AA}
+		{CCC5FD1C-3F36-4810-9775-169773BCDD3B} = {F7B1CFD2-C816-48E6-BBD3-26DAF0EED20D}
+		{55944CF8-5956-4E46-B3FD-E55A807D9C20} = {F7B1CFD2-C816-48E6-BBD3-26DAF0EED20D}
+		{6C664533-162D-455A-A798-0C55F46B3679} = {F7B1CFD2-C816-48E6-BBD3-26DAF0EED20D}
+		{FF9319D5-EA76-4F46-A56F-742B50AFDB9E} = {F7B1CFD2-C816-48E6-BBD3-26DAF0EED20D}
+		{32029688-371E-4BE1-AA70-9EC0EA98633A} = {CA9DB443-9479-4C7C-910F-922E31E1F2AA}
+		{BEDC6696-F32A-4CB4-8385-8A58C0500438} = {32029688-371E-4BE1-AA70-9EC0EA98633A}
+		{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44} = {BEDC6696-F32A-4CB4-8385-8A58C0500438}
+		{DE15E6F3-075E-4EC5-8917-F52361AB7E9A} = {BEDC6696-F32A-4CB4-8385-8A58C0500438}
+		{1598C120-9283-4936-80C4-983108E4F489} = {BEDC6696-F32A-4CB4-8385-8A58C0500438}
+		{FB541EFA-4C31-4765-A7A3-3813C2B8C90F} = {BEDC6696-F32A-4CB4-8385-8A58C0500438}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {332417E5-4579-4FAB-8004-09BAB480B79F}
+	EndGlobalSection
+EndGlobal

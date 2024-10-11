@@ -1,0 +1,11 @@
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\bin\Debug\net8.0\Softnotik.Shared.Infrastructure.deps.json
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\bin\Debug\net8.0\Softnotik.Shared.Infrastructure.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\bin\Debug\net8.0\Softnotik.Shared.Infrastructure.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnotik.Shared.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnotik.Shared.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnotik.Shared.Infrastructure.AssemblyInfo.cs
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnotik.Shared.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnotik.Shared.Infrastructure.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\refint\Softnotik.Shared.Infrastructure.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnotik.Shared.Infrastructure.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\ref\Softnotik.Shared.Infrastructure.dll

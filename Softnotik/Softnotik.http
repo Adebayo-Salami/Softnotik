@@ -1,0 +1,6 @@
+@Softnotik_HostAddress = http://localhost:5129
+
+GET {{Softnotik_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,15 @@
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\bin\Debug\net8.0\Softnotik.Shared.Application.deps.json
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\bin\Debug\net8.0\Softnotik.Shared.Application.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\bin\Debug\net8.0\Softnotik.Shared.Application.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\bin\Debug\net8.0\Softnotik.Shared.Domain.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\bin\Debug\net8.0\Softnotik.Shared.Domain.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnotik.Shared.Application.csproj.AssemblyReference.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnotik.Shared.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnotik.Shared.Application.AssemblyInfoInputs.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnotik.Shared.Application.AssemblyInfo.cs
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnotik.Shared.Application.csproj.CoreCompileInputs.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnoti.91B69425.Up2Date
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnotik.Shared.Application.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\refint\Softnotik.Shared.Application.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnotik.Shared.Application.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\ref\Softnotik.Shared.Application.dll
