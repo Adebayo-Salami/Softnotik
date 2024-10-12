@@ -486,7 +486,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Shared.Application\\Softnotik.Shared.Application.csproj": {
+                "projectPath": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Shared.Application\\Softnotik.Shared.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -503,6 +507,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

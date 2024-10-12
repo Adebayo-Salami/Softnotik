@@ -46,60 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerModule.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:57:11.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateCustomerCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:50:30.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:49:05.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:47:46.891Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -122,6 +70,55 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerModule.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
+              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
+              "RelativeToolTip": "Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T00:57:11.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCustomerCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
+              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
+              "RelativeToolTip": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T00:50:30.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
+              "RelativeToolTip": "Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T00:49:05.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
+              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
+              "RelativeToolTip": "Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T00:47:46.891Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CreateCustomerCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandHandler.cs",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:45:20.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T00:45:20.785Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:43:29.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T00:43:29.065Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "Softnotik.Modules.Customers.Presentation\\Customers\\DeleteCustomer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:42:32.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T00:42:32.87Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "Softnotik.Modules.Customers.Presentation\\Customers\\UpdateCustomer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:42:23.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T00:42:23.408Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "Softnotik.Modules.Customers.Presentation\\Customers\\CreateCustomer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:42:13.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T00:42:13.248Z"
             }
           ]
         }
