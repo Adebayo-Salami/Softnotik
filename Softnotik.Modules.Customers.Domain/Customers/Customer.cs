@@ -1,5 +1,6 @@
 ﻿using Softnotik.Modules.CustomerModule.Domain.Customers.Events;
 using Softnotik.Shared.Domain;
+using System.Xml.Linq;
 
 #nullable disable
 
@@ -32,6 +33,22 @@ namespace Softnotik.Modules.CustomerModule.Domain.Customers
 
             customer.Raise(new CustomerCreatedDomainEvent(customer.Id));
             return customer;
+        }
+
+        public void Update(string fullname, string email, string address, string zipcode, string phone)
+        {
+            if (!String.IsNullOrWhiteSpace(fullname))
+                FullName = fullname;
+            if (!String.IsNullOrWhiteSpace(email))
+                Email = email;
+            if (!String.IsNullOrWhiteSpace(address))
+                Address = address;
+            if (!String.IsNullOrWhiteSpace(zipcode))
+                Zipcode = zipcode;
+            if (!String.IsNullOrWhiteSpace(phone))
+                Phone = phone;
+
+            Raise(new CustomerUpdatedDomainEvent(this));
         }
     }
 }

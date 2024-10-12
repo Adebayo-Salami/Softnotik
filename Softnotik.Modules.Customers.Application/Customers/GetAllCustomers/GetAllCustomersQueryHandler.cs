@@ -11,7 +11,7 @@ namespace Softnotik.Modules.CustomerModule.Application.Customers.GetAllCustomers
         public async Task<Result<IEnumerable<CustomerVM>>> Handle(GetAllCustomersQuery request, CancellationToken cancellationToken)
         {
             var customers = await customerRepository.GetAllAsync(cancellationToken);
-            return customers.AsList();
+            return customers.Select(x => (CustomerVM)x).ToList();
         }
     }
 }

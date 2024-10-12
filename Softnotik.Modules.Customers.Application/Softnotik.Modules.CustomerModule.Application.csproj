@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Customers\DeleteCustomer\" />
-    <Folder Include="Customers\UpdateCustomer\" />
   </ItemGroup>
 
   <ItemGroup>

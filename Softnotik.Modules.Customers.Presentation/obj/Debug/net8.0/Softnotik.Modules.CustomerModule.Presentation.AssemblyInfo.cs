@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Softnotik.Modules.CustomerModule.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f95cccb8d6c91165dd3dab7180ea224d67659cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1cd4953657e6044714bb1f1c6044454e62afe12")]
 [assembly: System.Reflection.AssemblyProductAttribute("Softnotik.Modules.CustomerModule.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Softnotik.Modules.CustomerModule.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
