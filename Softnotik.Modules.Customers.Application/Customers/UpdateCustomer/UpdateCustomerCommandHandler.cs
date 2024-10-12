@@ -19,6 +19,7 @@ namespace Softnotik.Modules.CustomerModule.Application.Customers.UpdateCustomer
 
             customer.Update(request.Fullname, request.Email, request.Address, request.Zipcode, request.Phone);
             await customerRepository.UpdateAsync(customer);
+            await unitOfWork.SaveChangesAsync();
             return (CustomerVM)customer;
         }
     }

@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Customers\DeleteCustomer\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Softnotik.Modules.Customers.Domain\Softnotik.Modules.CustomerModule.Domain.csproj" />
     <ProjectReference Include="..\Softnotik.Shared.Application\Softnotik.Shared.Application.csproj" />
   </ItemGroup>
