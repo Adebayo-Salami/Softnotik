@@ -13,7 +13,7 @@ namespace Softnotik.Modules.CustomerModule.Infrastructure
 {
     public static class CustomerModule
     {
-        public static IServiceCollection AddEventsModule(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddCustomerModule(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddEndpoints(Presentation.AssemblyReference.Assembly);
             services.AddInfrastructure(configuration);

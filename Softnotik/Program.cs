@@ -1,25 +1,54 @@
-var builder = WebApplication.CreateBuilder(args);
+using Serilog;
+using HealthChecks.UI.Client;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Softnotik.Middleware;
+using Softnotik.Shared.Application;
+using Softnotik.Shared.Infrastructure;
+using Softnotik.Shared.Presentation.Endpoints;
+using Softnotik.Modules.CustomerModule.Infrastructure;
+using Softnotik.Extensions;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-// Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+builder.Host.UseSerilog((context, loggerConfig) => loggerConfig.ReadFrom.Configuration(context.Configuration));
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
+
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.CustomSchemaIds(t => t.FullName?.Replace("+", "."));
+});
 
-var app = builder.Build();
+builder.Services.AddApplication([Softnotik.Modules.CustomerModule.Application.AssemblyReference.Assembly]);
 
-// Configure the HTTP request pipeline.
+string databaseConnectionString = builder.Configuration.GetConnectionString("Database")!;
+
+builder.Services.AddInfrastructure([], databaseConnectionString);
+builder.Configuration.AddModuleConfiguration(["customermodule"]);
+
+builder.Services.AddHealthChecks().AddSqlServer(databaseConnectionString);
+builder.Services.AddCustomerModule(builder.Configuration);
+WebApplication app = builder.Build();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+    app.ApplyMigrations();
 }
 
-app.UseHttpsRedirection();
+app.MapEndpoints();
 
-app.UseAuthorization();
+app.MapHealthChecks("health", new HealthCheckOptions
+{
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
 
-app.MapControllers();
+app.UseSerilogRequestLogging();
+
+app.UseExceptionHandler();
 
 app.Run();
