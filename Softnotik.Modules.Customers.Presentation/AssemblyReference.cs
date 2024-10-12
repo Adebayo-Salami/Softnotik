@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Softnotik.Modules.Customers.Presentation
+namespace Softnotik.Modules.CustomerModule.Presentation
 {
     public static class AssemblyReference
     {

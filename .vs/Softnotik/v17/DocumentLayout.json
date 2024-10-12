@@ -7,36 +7,24 @@
       "RelativeMoniker": "D:0:0:{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}|Softnotik.Modules.Customers.Infrastructure\\Softnotik.Modules.CustomerModule.Infrastructure.csproj|solutionrelative:softnotik.modules.customers.infrastructure\\customermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1598C120-9283-4936-80C4-983108E4F489}|Softnotik.Modules.Customers.Presentation\\Softnotik.Modules.CustomerModule.Presentation.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.presentation\\customers\\createcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1598C120-9283-4936-80C4-983108E4F489}|Softnotik.Modules.Customers.Presentation\\Softnotik.Modules.CustomerModule.Presentation.csproj|solutionrelative:softnotik.modules.customers.presentation\\customers\\createcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}|Softnotik.Modules.Customers.Infrastructure\\Softnotik.Modules.CustomerModule.Infrastructure.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.infrastructure\\database\\customermoduledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}|Softnotik.Modules.Customers.Infrastructure\\Softnotik.Modules.CustomerModule.Infrastructure.csproj|solutionrelative:softnotik.modules.customers.infrastructure\\database\\customermoduledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1598C120-9283-4936-80C4-983108E4F489}|Softnotik.Modules.Customers.Presentation\\Softnotik.Modules.CustomerModule.Presentation.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.presentation\\customers\\deletecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1598C120-9283-4936-80C4-983108E4F489}|Softnotik.Modules.Customers.Presentation\\Softnotik.Modules.CustomerModule.Presentation.csproj|solutionrelative:softnotik.modules.customers.presentation\\customers\\deletecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44}|Softnotik.Modules.Customers.Domain\\Softnotik.Modules.CustomerModule.Domain.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.domain\\customers\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44}|Softnotik.Modules.Customers.Domain\\Softnotik.Modules.CustomerModule.Domain.csproj|solutionrelative:softnotik.modules.customers.domain\\customers\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}|Softnotik.Modules.Customers.Application\\Softnotik.Modules.CustomerModule.Application.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.application\\customers\\createcustomer\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}|Softnotik.Modules.Customers.Application\\Softnotik.Modules.CustomerModule.Application.csproj|solutionrelative:softnotik.modules.customers.application\\customers\\createcustomer\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}|Softnotik.Modules.Customers.Application\\Softnotik.Modules.CustomerModule.Application.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.application\\customers\\createcustomer\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}|Softnotik.Modules.Customers.Application\\Softnotik.Modules.CustomerModule.Application.csproj|solutionrelative:softnotik.modules.customers.application\\customers\\createcustomer\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}|Softnotik.Modules.Customers.Application\\Softnotik.Modules.CustomerModule.Application.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.application\\customers\\createcustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE15E6F3-075E-4EC5-8917-F52361AB7E9A}|Softnotik.Modules.Customers.Application\\Softnotik.Modules.CustomerModule.Application.csproj|solutionrelative:softnotik.modules.customers.application\\customers\\createcustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}|Softnotik.Modules.Customers.Infrastructure\\Softnotik.Modules.CustomerModule.Infrastructure.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.infrastructure\\customers\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}|Softnotik.Modules.Customers.Infrastructure\\Softnotik.Modules.CustomerModule.Infrastructure.csproj|solutionrelative:softnotik.modules.customers.infrastructure\\customers\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44}|Softnotik.Modules.Customers.Domain\\Softnotik.Modules.CustomerModule.Domain.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.domain\\customers\\irepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FE1C2BA-C4FA-4951-BBC2-9B72AAA7CB44}|Softnotik.Modules.Customers.Domain\\Softnotik.Modules.CustomerModule.Domain.csproj|solutionrelative:softnotik.modules.customers.domain\\customers\\irepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1598C120-9283-4936-80C4-983108E4F489}|Softnotik.Modules.Customers.Presentation\\Softnotik.Modules.CustomerModule.Presentation.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.presentation\\customers\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1598C120-9283-4936-80C4-983108E4F489}|Softnotik.Modules.Customers.Presentation\\Softnotik.Modules.CustomerModule.Presentation.csproj|solutionrelative:softnotik.modules.customers.presentation\\customers\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}|Softnotik.Modules.Customers.Infrastructure\\Softnotik.Modules.CustomerModule.Infrastructure.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.infrastructure\\customers\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB541EFA-4C31-4765-A7A3-3813C2B8C90F}|Softnotik.Modules.Customers.Infrastructure\\Softnotik.Modules.CustomerModule.Infrastructure.csproj|solutionrelative:softnotik.modules.customers.infrastructure\\customers\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1598C120-9283-4936-80C4-983108E4F489}|Softnotik.Modules.Customers.Presentation\\Softnotik.Modules.CustomerModule.Presentation.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.modules.customers.presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1598C120-9283-4936-80C4-983108E4F489}|Softnotik.Modules.Customers.Presentation\\Softnotik.Modules.CustomerModule.Presentation.csproj|solutionrelative:softnotik.modules.customers.presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +34,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
+              "RelativeToolTip": "Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:51:53.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\Customers\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Infrastructure\\Customers\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\Customers\\CustomerRepository.cs",
+              "RelativeToolTip": "Softnotik.Modules.Customers.Infrastructure\\Customers\\CustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:49:52.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\Customers\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Infrastructure\\Customers\\CustomerConfiguration.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\Customers\\CustomerConfiguration.cs",
+              "RelativeToolTip": "Softnotik.Modules.Customers.Infrastructure\\Customers\\CustomerConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:45:27.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerModuleDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\Database\\CustomerModuleDbContext.cs",
+              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Infrastructure\\Database\\CustomerModuleDbContext.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\Database\\CustomerModuleDbContext.cs",
+              "RelativeToolTip": "Softnotik.Modules.Customers.Infrastructure\\Database\\CustomerModuleDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:43:20.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Presentation\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Presentation\\AssemblyReference.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Presentation\\AssemblyReference.cs",
+              "RelativeToolTip": "Softnotik.Modules.Customers.Presentation\\AssemblyReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:41:41.462Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -76,106 +129,10 @@
               "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
               "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
               "RelativeToolTip": "Softnotik.Modules.Customers.Infrastructure\\CustomerModule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:57:11.071Z",
+              "WhenOpened": "2024-10-12T10:40:45.011Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateCustomerCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:50:30.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Domain\\Customers\\IRepository\\ICustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:49:05.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Domain\\Customers\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:47:46.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateCustomerCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandHandler.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandHandler.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:45:20.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateCustomerCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Application\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:43:29.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeleteCustomer.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Presentation\\Customers\\DeleteCustomer.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Presentation\\Customers\\DeleteCustomer.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Presentation\\Customers\\DeleteCustomer.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Presentation\\Customers\\DeleteCustomer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:42:32.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateCustomer.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Presentation\\Customers\\UpdateCustomer.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Presentation\\Customers\\UpdateCustomer.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Presentation\\Customers\\UpdateCustomer.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Presentation\\Customers\\UpdateCustomer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:42:23.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateCustomer.cs",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Presentation\\Customers\\CreateCustomer.cs",
-              "RelativeDocumentMoniker": "Softnotik.Modules.Customers.Presentation\\Customers\\CreateCustomer.cs",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.Modules.Customers.Presentation\\Customers\\CreateCustomer.cs",
-              "RelativeToolTip": "Softnotik.Modules.Customers.Presentation\\Customers\\CreateCustomer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:42:13.248Z"
             }
           ]
         }

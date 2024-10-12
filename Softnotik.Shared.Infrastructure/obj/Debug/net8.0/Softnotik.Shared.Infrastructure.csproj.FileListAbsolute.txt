@@ -9,3 +9,10 @@ C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastru
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\refint\Softnotik.Shared.Infrastructure.dll
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnotik.Shared.Infrastructure.pdb
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\ref\Softnotik.Shared.Infrastructure.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\bin\Debug\net8.0\Softnotik.Shared.Application.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\bin\Debug\net8.0\Softnotik.Shared.Domain.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\bin\Debug\net8.0\Softnotik.Shared.Application.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\bin\Debug\net8.0\Softnotik.Shared.Domain.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnotik.Shared.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnotik.Shared.Infrastructure.sourcelink.json
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Infrastructure\obj\Debug\net8.0\Softnoti.34D74DFB.Up2Date
