@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Softnotik/DesignTimeBuild/.dtbcache.v2
+/.vs/Softnotik/FileContentIndex/036ec52c-4619-44a3-b660-6c98378d0f06.vsidx
+*.vsidx
+/.vs/Softnotik/FileContentIndex/17a70d30-9029-4d87-8056-ce4a3e309dee.vsidx
+/.vs/Softnotik/FileContentIndex/31e36b2a-0c2d-4909-b6bc-3ea4d2184723.vsidx
+/.vs/Softnotik/FileContentIndex/51b77800-f95b-43a8-91ca-e0e012b2812b.vsidx
+/.vs/Softnotik/FileContentIndex/7779c32c-e36e-4006-95c4-7746969f184f.vsidx
