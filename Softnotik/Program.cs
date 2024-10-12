@@ -7,7 +7,7 @@ using Softnotik.Shared.Infrastructure;
 using Softnotik.Shared.Presentation.Endpoints;
 using Softnotik.Modules.CustomerModule.Infrastructure;
 using Softnotik.Extensions;
-using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.EntityFrameworkCore;
 
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -28,7 +28,7 @@ string databaseConnectionString = builder.Configuration.GetConnectionString("Dat
 builder.Services.AddInfrastructure([], databaseConnectionString);
 builder.Configuration.AddModuleConfiguration(["customermodule"]);
 
-builder.Services.AddHealthChecks().AddSqlServer(databaseConnectionString);
+builder.Services.AddHealthChecks();
 builder.Services.AddCustomerModule(builder.Configuration);
 WebApplication app = builder.Build();
 

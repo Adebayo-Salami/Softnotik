@@ -10,3 +10,4 @@ C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\ob
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\refint\Softnotik.Shared.Domain.dll
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\Softnotik.Shared.Domain.pdb
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\ref\Softnotik.Shared.Domain.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Domain\obj\Debug\net8.0\Softnotik.Shared.Domain.sourcelink.json

@@ -13,3 +13,4 @@ C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Applicati
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\refint\Softnotik.Shared.Application.dll
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnotik.Shared.Application.pdb
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\ref\Softnotik.Shared.Application.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Application\obj\Debug\net8.0\Softnotik.Shared.Application.sourcelink.json
