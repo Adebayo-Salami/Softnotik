@@ -7,6 +7,6 @@ namespace Softnotik.Modules.CustomerModule.Domain.Customers.IRepository
         Task<CustomerVM?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
         Task<CustomerVM?> GetByEmailAsync(Guid id, CancellationToken cancellationToken = default);
         Task<IEnumerable<CustomerVM>> GetAllAsync(CancellationToken cancellationToken = default);
-        Task Insert(Customer customer);
+        Task InsertAsync(Customer customer);
     }
 }

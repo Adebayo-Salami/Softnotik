@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Softnotik.Modules.Customers.Application\Softnotik.Modules.CustomerModule.Application.csproj" />
+    <ProjectReference Include="..\Softnotik.Shared.Presentation\Softnotik.Shared.Presentation.csproj" />
+  </ItemGroup>
+
 </Project>

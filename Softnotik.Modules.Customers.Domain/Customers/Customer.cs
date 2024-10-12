@@ -1,5 +1,4 @@
 ﻿using Softnotik.Modules.CustomerModule.Domain.Customers.Events;
-using Softnotik.Modules.CustomerModule.Domain.Customers.RequestModels;
 using Softnotik.Shared.Domain;
 
 #nullable disable
