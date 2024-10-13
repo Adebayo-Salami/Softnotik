@@ -1,0 +1,16 @@
+﻿using Softnotik.UI.Shared.Models;
+
+namespace Softnotik.UI.Shared.Logging
+{
+    public class LogWriter
+    {
+        private readonly LogQueue _queue;
+
+        public LogWriter(LogQueue queue)
+        {
+            _queue = queue;
+        }
+
+        public ValueTask Write(LogMessage message, CancellationToken token = default) => _queue.WriteLog(message, token);
+    }
+}

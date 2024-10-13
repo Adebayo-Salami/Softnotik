@@ -1,0 +1,13 @@
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\Softnotik.UI.shared.csproj.AssemblyReference.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\Softnotik.UI.shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\Softnotik.UI.shared.AssemblyInfoInputs.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\Softnotik.UI.shared.AssemblyInfo.cs
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\Softnotik.UI.shared.csproj.CoreCompileInputs.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\Softnotik.UI.shared.sourcelink.json
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\bin\Debug\net8.0\Softnotik.UI.shared.deps.json
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\bin\Debug\net8.0\Softnotik.UI.shared.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\bin\Debug\net8.0\Softnotik.UI.shared.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\Softnotik.UI.shared.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\refint\Softnotik.UI.shared.dll
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\Softnotik.UI.shared.pdb
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.shared\obj\Debug\net8.0\ref\Softnotik.UI.shared.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Softnotik.UI.Components.props" />
+</Project>

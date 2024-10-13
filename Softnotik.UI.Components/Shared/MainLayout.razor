@@ -1,0 +1,36 @@
+﻿@inherits LayoutComponentBase
+
+@inject NavigationManager _navigationManager
+@inject IJSRuntime _jsRuntime
+@inject ISettingsViewModel _settingsViewModel
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+    <BlazoredToasts Position="ToastPosition.BottomRight"
+                    Timeout="3"
+                    IconType="IconType.FontAwesome"
+                    SuccessClass="success-toast-override"
+                    SuccessIcon="fa fa-thumbs-up"
+                    ErrorIcon="fa fa-bug" />
+    <div class="main">
+        <div class="top-row px-4">
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        </div>
+        <div class="content px-4">
+            @Body
+        </div>
+    </div>
+</div>
+
+
+@code {
+
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        //calling the JS function
+        var module = await _jsRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/Softnotik.UI.Components/js/site.js");
+        await module.InvokeVoidAsync("setTheme", _settingsViewModel.CurrentTheme);
+    }
+}
