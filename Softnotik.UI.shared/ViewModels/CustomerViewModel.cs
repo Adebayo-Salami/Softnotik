@@ -1,4 +1,5 @@
-﻿using Softnotik.UI.Shared.ViewModels.CustomerViewModels;
+﻿using Softnotik.UI.Shared.Extensions;
+using Softnotik.UI.Shared.ViewModels.CustomerViewModels;
 using Softnotik.UI.Shared.ViewModels.Interfaces;
 
 namespace Softnotik.UI.Shared.ViewModels
@@ -6,10 +7,8 @@ namespace Softnotik.UI.Shared.ViewModels
     public class CustomerViewModel : ICustomerViewModel
     {
         private readonly HttpClient _httpClient;
-        public IEnumerable<CustomerVM> Contacts { get; private set; } = [];
+        public IEnumerable<CustomerVM> Customers { get; private set; } = [];
         public int CustomersCount { get; private set; } = 1;
-
-        public IEnumerable<CustomerVM> Customers => throw new NotImplementedException();
 
         public CustomerViewModel(HttpClient httpClient)
         {
@@ -21,9 +20,9 @@ namespace Softnotik.UI.Shared.ViewModels
             throw new NotImplementedException();
         }
 
-        public Task GetAll()
+        public async Task LoadAllCustomers()
         {
-            throw new NotImplementedException();
+            Customers = await _httpClient.GetAsync<IEnumerable<CustomerVM>>("customers");
         }
 
         public Task<Guid> Create()

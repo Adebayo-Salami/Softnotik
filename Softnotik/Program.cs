@@ -9,7 +9,6 @@ using Softnotik.Modules.CustomerModule.Infrastructure;
 using Softnotik.Extensions;
 using Microsoft.EntityFrameworkCore;
 
-
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog((context, loggerConfig) => loggerConfig.ReadFrom.Configuration(context.Configuration));
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
@@ -28,6 +27,7 @@ string databaseConnectionString = builder.Configuration.GetConnectionString("Dat
 builder.Services.AddInfrastructure([], databaseConnectionString);
 builder.Configuration.AddModuleConfiguration(["customermodule"]);
 
+builder.Services.AddCors();
 builder.Services.AddHealthChecks();
 builder.Services.AddCustomerModule(builder.Configuration);
 WebApplication app = builder.Build();
@@ -39,6 +39,16 @@ if (app.Environment.IsDevelopment())
 
     app.ApplyMigrations();
 }
+
+app.UseCors(x =>
+{
+    x.WithOrigins(builder.Configuration["AllowedCorsOrigin"]
+        .Split(",", StringSplitOptions.RemoveEmptyEntries)
+        .Select(o => o.RemovePostFix("/"))
+        .ToArray())
+    .AllowAnyMethod()
+    .AllowAnyHeader();
+});
 
 app.MapEndpoints();
 

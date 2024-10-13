@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{57CDD5EA-EB70-4733-B4B7-82299F520682}|Softnotik.UI.Components\\Softnotik.UI.Components.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui.components\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{57CDD5EA-EB70-4733-B4B7-82299F520682}|Softnotik.UI.Components\\Softnotik.UI.Components.csproj|solutionrelative:softnotik.ui.components\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57CDD5EA-EB70-4733-B4B7-82299F520682}|Softnotik.UI.Components\\Softnotik.UI.Components.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui.components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57CDD5EA-EB70-4733-B4B7-82299F520682}|Softnotik.UI.Components\\Softnotik.UI.Components.csproj|solutionrelative:softnotik.ui.components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{841D15FD-70A9-492F-A52A-E79F65953D93}|Softnotik.UI\\Softnotik.UI.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{841D15FD-70A9-492F-A52A-E79F65953D93}|Softnotik.UI\\Softnotik.UI.csproj|solutionrelative:softnotik.ui\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{841D15FD-70A9-492F-A52A-E79F65953D93}|Softnotik.UI\\Softnotik.UI.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui\\wwwroot\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{841D15FD-70A9-492F-A52A-E79F65953D93}|Softnotik.UI\\Softnotik.UI.csproj|solutionrelative:softnotik.ui\\wwwroot\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,60 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NavMenu.razor.css",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.Components\\Shared\\NavMenu.razor.css",
-              "RelativeDocumentMoniker": "Softnotik.UI.Components\\Shared\\NavMenu.razor.css",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.Components\\Shared\\NavMenu.razor.css",
-              "RelativeToolTip": "Softnotik.UI.Components\\Shared\\NavMenu.razor.css",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-13T15:58:56.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "Softnotik.UI.Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.Components\\_Imports.razor",
-              "RelativeToolTip": "Softnotik.UI.Components\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T15:32:46.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "Softnotik.UI\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI\\wwwroot\\index.html",
-              "RelativeToolTip": "Softnotik.UI\\wwwroot\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-13T14:51:33.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "manifest.json",
-              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI\\wwwroot\\manifest.json",
-              "RelativeDocumentMoniker": "Softnotik.UI\\wwwroot\\manifest.json",
-              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI\\wwwroot\\manifest.json",
-              "RelativeToolTip": "Softnotik.UI\\wwwroot\\manifest.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-13T14:50:32.157Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
