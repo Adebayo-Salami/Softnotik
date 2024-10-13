@@ -1,16 +1,14 @@
 ﻿using Softnotik.UI.Shared.Extensions;
+using Softnotik.UI.Shared.Services.Interfaces;
 using Softnotik.UI.Shared.ViewModels.CustomerViewModels;
-using Softnotik.UI.Shared.ViewModels.Interfaces;
 
-namespace Softnotik.UI.Shared.ViewModels
+namespace Softnotik.UI.Shared.Services
 {
-    public class CustomerViewModel : ICustomerViewModel
+    public class CustomerService : ICustomerService
     {
         private readonly HttpClient _httpClient;
-        public IEnumerable<CustomerVM> Customers { get; private set; } = [];
-        public int CustomersCount { get; private set; } = 1;
 
-        public CustomerViewModel(HttpClient httpClient)
+        public CustomerService(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
@@ -20,17 +18,18 @@ namespace Softnotik.UI.Shared.ViewModels
             throw new NotImplementedException();
         }
 
-        public async Task LoadAllCustomers()
+        public async Task<IEnumerable<CustomerVM>> GetAll()
         {
-            Customers = await _httpClient.GetAsync<IEnumerable<CustomerVM>>("customers");
+            var dd = await _httpClient.GetAsync<IEnumerable<CustomerVM>>("customers");
+            return await _httpClient.GetAsync<IEnumerable<CustomerVM>>("customers");
         }
 
-        public Task<Guid> Create()
+        public Task<Guid> Create(CreateCustomerVM model)
         {
             throw new NotImplementedException();
         }
 
-        public Task<CustomerVM> Update()
+        public Task<CustomerVM> Update(UpdateCustomerVM model)
         {
             throw new NotImplementedException();
         }

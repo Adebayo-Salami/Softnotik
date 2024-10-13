@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57CDD5EA-EB70-4733-B4B7-82299F520682}|Softnotik.UI.Components\\Softnotik.UI.Components.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui.components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57CDD5EA-EB70-4733-B4B7-82299F520682}|Softnotik.UI.Components\\Softnotik.UI.Components.csproj|solutionrelative:softnotik.ui.components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui.shared\\viewmodels\\customerviewmodels\\customervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|solutionrelative:softnotik.ui.shared\\viewmodels\\customerviewmodels\\customervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui.shared\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|solutionrelative:softnotik.ui.shared\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui.shared\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|solutionrelative:softnotik.ui.shared\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui.shared\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|solutionrelative:softnotik.ui.shared\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{841D15FD-70A9-492F-A52A-E79F65953D93}|Softnotik.UI\\Softnotik.UI.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{841D15FD-70A9-492F-A52A-E79F65953D93}|Softnotik.UI\\Softnotik.UI.csproj|solutionrelative:softnotik.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|c:\\users\\adebayo salami\\documents\\work\\test\\softnotik\\softnotik.ui.shared\\viewmodels\\customerviewmodels\\updatecustomervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7936D53-DDD6-4E96-BFAC-36061CB67D1A}|Softnotik.UI.shared\\Softnotik.UI.shared.csproj|solutionrelative:softnotik.ui.shared\\viewmodels\\customerviewmodels\\updatecustomervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +59,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerVM.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\ViewModels\\CustomerViewModels\\CustomerVM.cs",
+              "RelativeDocumentMoniker": "Softnotik.UI.shared\\ViewModels\\CustomerViewModels\\CustomerVM.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\ViewModels\\CustomerViewModels\\CustomerVM.cs",
+              "RelativeToolTip": "Softnotik.UI.shared\\ViewModels\\CustomerViewModels\\CustomerVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:55:48.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Services\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "Softnotik.UI.shared\\Services\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Services\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "Softnotik.UI.shared\\Services\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:11:04.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI\\Program.cs",
+              "RelativeDocumentMoniker": "Softnotik.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI\\Program.cs",
+              "RelativeToolTip": "Softnotik.UI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:17:06.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Softnotik.UI.shared\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Softnotik.UI.shared\\Services\\CustomerService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:13:11.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateCustomerVM.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\ViewModels\\CustomerViewModels\\UpdateCustomerVM.cs",
+              "RelativeDocumentMoniker": "Softnotik.UI.shared\\ViewModels\\CustomerViewModels\\UpdateCustomerVM.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\ViewModels\\CustomerViewModels\\UpdateCustomerVM.cs",
+              "RelativeToolTip": "Softnotik.UI.shared\\ViewModels\\CustomerViewModels\\UpdateCustomerVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:12:29.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "Softnotik.UI.shared\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "Softnotik.UI.shared\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:10:18.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customers.razor",
+              "DocumentMoniker": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.Components\\Pages\\Customers.razor",
+              "RelativeDocumentMoniker": "Softnotik.UI.Components\\Pages\\Customers.razor",
+              "ToolTip": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.Components\\Pages\\Customers.razor",
+              "RelativeToolTip": "Softnotik.UI.Components\\Pages\\Customers.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T16:58:33.151Z",
+              "EditorCaption": ""
             }
           ]
         }

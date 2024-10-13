@@ -1339,9 +1339,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Softnotik.UI.shared.csproj",
-      "projectName": "Softnotik.UI.shared",
-      "projectPath": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Softnotik.UI.shared.csproj",
+      "projectUniqueName": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Softnotik.UI.Shared.csproj",
+      "projectName": "Softnotik.UI.Shared",
+      "projectPath": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\Softnotik.UI.Shared.csproj",
       "packagesPath": "C:\\Users\\Adebayo Salami\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Adebayo Salami\\Documents\\Work\\Test\\Softnotik\\Softnotik.UI.shared\\obj\\",
       "projectStyle": "PackageReference",

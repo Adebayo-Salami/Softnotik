@@ -4,6 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Softnotik.UI.Shared.Logging;
 using Softnotik.UI.Shared.Models;
+using Softnotik.UI.Shared.Services;
+using Softnotik.UI.Shared.Services.Interfaces;
 using Softnotik.UI.Shared.ViewModels;
 using Softnotik.UI.Shared.ViewModels.Interfaces;
 
@@ -22,7 +24,7 @@ namespace Softnotik.UI.Shared.Extensions
 
             // transactional named http clients
             var clientConfigurator = void (HttpClient client) => client.BaseAddress = new Uri(applicationSettings.BaseAddress);
-            services.AddHttpClient<ICustomerViewModel, CustomerViewModel>("CustomerViewModelClient", clientConfigurator);
+            services.AddScoped<ICustomerService, CustomerService>();
 
             // Add Settings
             services.AddSingleton<ISettingsViewModel, SettingsViewModel>();

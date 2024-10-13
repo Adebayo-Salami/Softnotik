@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Softnotik.UI.Components")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94e62f8b10278c0b1b3c19a0abca503730e3474d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acad04e2bc85e8e81ace1e4354bcbe01dbab2932")]
 [assembly: System.Reflection.AssemblyProductAttribute("Softnotik.UI.Components")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Softnotik.UI.Components")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

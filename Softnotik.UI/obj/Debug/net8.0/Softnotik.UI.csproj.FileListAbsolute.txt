@@ -1143,7 +1143,7 @@ C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\obj\Debug\net
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\obj\Debug\net8.0\compressed\ja005cuw8w.gz
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\obj\Debug\net8.0\compressed\rg5f6fwku1.gz
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\obj\Debug\net8.0\compressed\1y3whr5h92.gz
-C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\obj\Debug\net8.0\compressed\6tg3jfi3zu.gz
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\obj\Debug\net8.0\compressed\qn2bm4ddu6.gz
-C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\obj\Debug\net8.0\compressed\a7cl9tshkp.gz
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\bin\Debug\net8.0\staticwebapp.config.json
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\obj\Debug\net8.0\compressed\6tg3jfi3zu.gz
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI\obj\Debug\net8.0\compressed\a7cl9tshkp.gz

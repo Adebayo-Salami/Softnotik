@@ -1,8 +1,7 @@
 ﻿@page "/customers"
 @using Softnotik.UI.Shared.ViewModels.CustomerViewModels
 
-@inject ICustomerViewModel _customerViewModel
-@inject NavigationManager _navigationManager
+@inject ICustomerService _customerService
 
 <h2 class="white-text"><b>Customers</b></h2>
 <hr class="white-horizontal-line" />
@@ -11,33 +10,41 @@
     <input type="text" class="col-12 form-control dark-theme-textbox" placeholder="search" />
 </div>
 <br />
-@if(_customerViewModel.CustomersCount > 0)
+@if (!customers.Any())
 {
-    <Virtualize ItemsProvider="LoadAllCustomers" Context="customer">
-        <ItemContent>
-            <div style="height: 50px">
-                <a 
-                   class="list-group-item list-group-item-action flex-column align-items-start contact-list-item">
-                    @customer.FullName 
-                </a>
-            </div>
-        </ItemContent>
-        <Placeholder>
-            <div style="height: 50px">
-                <p>Loading...</p>
-            </div>
-        </Placeholder>
-    </Virtualize>
+    <p><em>Loading...</em></p>
 }
-<br />
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Fullname</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>ZipCode</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in customers)
+            {
+                <tr>
+                    <td>@customer.Id.ToString()</td>
+                    <td>@customer.FullName</td>
+                    <td>@customer.Email</td>
+                    <td>@customer.Address</td>
+                    <td>@customer.Zipcode</td>
+                    <td>@customer.Phone</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
 
 @code {
-    [CascadingParameter]
-    public Error Error { get; set; }
+    private IEnumerable<CustomerVM> customers = [];
 
-    private async ValueTask<ItemsProviderResult<CustomerVM>> LoadAllCustomers(ItemsProviderRequest itemsProviderRequest)
-    {
-        await _customerViewModel.LoadAllCustomers();
-        return new ItemsProviderResult<CustomerVM>(_customerViewModel.Customers, _customerViewModel.CustomersCount);
-    }
+    protected override async Task OnInitializedAsync() => customers = await _customerService.GetAll();
 }

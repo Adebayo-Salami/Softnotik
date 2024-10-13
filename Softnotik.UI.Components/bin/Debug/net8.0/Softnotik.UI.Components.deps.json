@@ -517,7 +517,7 @@
           "System.Net.Http.Json": "6.0.0"
         },
         "runtime": {
-          "Softnotik.UI.Shared.dll": {}
+          "Softnotik.UI.shared.dll": {}
         }
       }
     }
