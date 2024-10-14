@@ -7,6 +7,7 @@ using Softnotik.UI.Shared.Models;
 using Softnotik.UI.Shared.Services;
 using Softnotik.UI.Shared.Services.Interfaces;
 using Softnotik.UI.Shared.ViewModels;
+using Softnotik.UI.Shared.ViewModels.CustomerViewModels;
 using Softnotik.UI.Shared.ViewModels.Interfaces;
 
 namespace Softnotik.UI.Shared.Extensions

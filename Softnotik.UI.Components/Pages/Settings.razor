@@ -1,7 +1,45 @@
 ﻿@page "/settings"
 
-<h3>Settings</h3>
+@inject ISettingsViewModel _settingsViewModel
+@inject NavigationManager _navigationManager
+@inject IJSRuntime _jsRuntime
+@inject IToastService _toastService
+
+<h2 class="white-text"><b>Settings</b></h2>
+<hr class="white-horizontal-line" />
+
+<div class="col-12">
+    <div class="row">
+        <input type="button" class="btn btn-primary" value="Save Settings" @onclick="SaveSettings" />
+    </div>
+</div>
+<br />
+<div class="col-12">
+    <div class="row">
+        <input type="checkbox"
+            @bind="@_settingsViewModel.DarkTheme" 
+            Style="margin-bottom: 20px" />
+        <span>&nbsp; &nbsp;</span>
+        <label class="white-text"> Dark Theme </label>    
+    </div>
+</div>
 
 @code {
+    [CascadingParameter]
+    public Error Error { get; set; } = default!;
 
+    private async Task UpdateTheme()
+    {
+        // _settingsViewModel.UpdateTheme();
+        var themeName = _settingsViewModel.CurrentTheme;
+
+        var module = await _jsRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/Softnotik.UI.Components/js/site.js");
+        await module.InvokeVoidAsync("setTheme", themeName);
+    }
+
+    private async Task SaveSettings()
+    {
+        await UpdateTheme();
+        _toastService.ShowSuccess("Settings have been saved successfully");
+    }
 }

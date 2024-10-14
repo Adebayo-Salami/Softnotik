@@ -44,7 +44,7 @@ namespace Softnotik.UI.Shared.Extensions
             return JsonSerializer.Deserialize<T>(responseBody, jsonSerializerOptions);
         }
 
-        public static async Task<int> DeleteAsync(this HttpClient httpClient, string url)
+        public static async Task<T> DeleteAsync<T>(this HttpClient httpClient, string url)
         {
             var request = new HttpRequestMessage(HttpMethod.Delete, url);
 
@@ -52,7 +52,7 @@ namespace Softnotik.UI.Shared.Extensions
             var responseBody = await response.Content.ReadAsStringAsync();
 
             var jsonSerializerOptions = new JsonSerializerOptions() { PropertyNameCaseInsensitive = true };
-            return JsonSerializer.Deserialize<int>(responseBody, jsonSerializerOptions);
+            return JsonSerializer.Deserialize<T>(responseBody, jsonSerializerOptions);
         }
     }
 }

@@ -1,14 +1,19 @@
 ﻿#nullable disable
 
+using System.Text.Json.Serialization;
+
 namespace Softnotik.UI.Shared.ViewModels.CustomerViewModels
 {
     public class CustomerVM
     {
-        public Guid Id { get; private set; }
-        public string FullName { get; private set; }
-        public string Email { get; private set; }
-        public string Address { get; private set; }
-        public string Zipcode { get; private set; }
-        public string Phone { get; private set; }
+        [JsonPropertyName("id")]
+        public Guid Id { get; set; }
+        [JsonPropertyName("fullName")]
+        public string FullName { get; set; }
+        [JsonPropertyName("email")]
+        public string Email { get; set; }
+        public string Address { get; set; }
+        public string Zipcode { get; set; }
+        public string Phone { get; set; }
     }
 }

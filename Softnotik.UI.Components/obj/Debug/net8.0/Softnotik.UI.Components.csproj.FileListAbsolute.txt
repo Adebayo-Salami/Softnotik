@@ -17,12 +17,12 @@ C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\ob
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Softnotik.UI.Components.props
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Softnotik.UI.Components.props
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\scopedcss\bundle\Softnotik.UI.Components.styles.css
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\scopedcss\projectbundle\Softnotik.UI.Components.bundle.scp.css
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\Softnoti.54119356.Up2Date
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\Softnotik.UI.Components.dll
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\refint\Softnotik.UI.Components.dll
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\Softnotik.UI.Components.pdb
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\ref\Softnotik.UI.Components.dll
-C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
-C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.UI.Components\obj\Debug\net8.0\scopedcss\projectbundle\Softnotik.UI.Components.bundle.scp.css

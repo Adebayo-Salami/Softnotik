@@ -2,10 +2,79 @@
 @using Softnotik.UI.Shared.ViewModels.CustomerViewModels
 
 @inject ICustomerService _customerService
+@inject NavigationManager _navigationManager
+@inject IToastService _toastService
 
 <h2 class="white-text"><b>Customers</b></h2>
 <hr class="white-horizontal-line" />
 
+
+<div class="card">
+    <hr class="white-horizontal-line" />
+    <div class="col-12">
+        <h2 class="white-text" style="text-align: center">
+            <b>Create New Customer</b>
+        </h2>
+    </div>
+    <SpinLoader IsLoading="IsLoading">
+        <LoadingTemplate>
+            <div class="col-12" style="background-color: lightgray; height:400px; vertical-align:middle">
+                <br /><br />
+                <Chase Center="true" Color="blue" Size="70px"></Chase>
+            </div>
+        </LoadingTemplate>
+        <ContentTemplate>
+            <hr class="white-horizontal-line" />
+            <EditForm Model="@createCustomerVM" OnValidSubmit="@CreateCustomer">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+                <div class="col-xl-6 col-md-8 col-12">
+                    <input id="input_fullname" @onkeypress="OnKeyPress" type="text" @bind="createCustomerVM.FullName" class="form-control textbox" placeholder="full name">
+                </div>
+                <br />
+                <div class="col-xl-6 col-md-8 col-12">
+                    <input id="input_emailaddress" @onkeypress="OnKeyPress" type="email" @bind="createCustomerVM.Email" class="form-control textbox" placeholder="email address">
+                </div>
+                <br />
+                <div class="col-xl-6 col-md-8 col-12">
+                    <input id="input_address" @onkeypress="OnKeyPress" type="text" @bind="createCustomerVM.Address" class="form-control textbox" placeholder="address">
+                </div>
+                <br />
+                <div class="col-xl-6 col-md-8 col-12">
+                    <input id="input_zipcode" @onkeypress="OnKeyPress" type="text" @bind="createCustomerVM.ZipCode" class="form-control textbox" placeholder="zipcode">
+                </div>
+                <br />
+                <div class="col-xl-6 col-md-8 col-12">
+                    <input id="input_mobile" @onkeypress="OnKeyPress" type="text" @bind="createCustomerVM.Phone" class="form-control textbox" placeholder="phone">
+                </div>
+                <br />
+                <div class="col-xl-6 col-md-8 col-12 row">
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-3 col-3">
+                        @if (customerEditing == null)
+                        {
+                            <button id="button_login" type="submit" class="btn btn-danger" style="width: 250px">Create Customer</button>
+                        }
+                        else
+                        {
+                            <button id="button_login" @onclick="@(() => CancelUpdate())" type="button" class="btn btn-danger" style="width: 250px">Cancel</button>
+                            <br /> <br />
+                            <button id="button_login" @onclick="@(() => UpdateCustomer())" type="button" class="btn btn-info" style="width: 250px">Update Customer</button>
+                        }
+                        
+                    </div>
+                </div>
+            </EditForm>
+            <hr class="white-horizontal-line" />
+            <div class="col-12">
+                <p style="font-size: larger;" class="white-text">
+                    Softnotik Customer Creation Portal
+                </p>
+            </div>
+        </ContentTemplate>
+    </SpinLoader>
+</div>
+<br /><br />
+<h3><u>Customer List</u></h3>
 <div class="col-12 row">
     <input type="text" class="col-12 form-control dark-theme-textbox" placeholder="search" />
 </div>
@@ -25,6 +94,8 @@ else
                 <th>Address</th>
                 <th>ZipCode</th>
                 <th>Phone</th>
+                <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -37,6 +108,8 @@ else
                     <td>@customer.Address</td>
                     <td>@customer.Zipcode</td>
                     <td>@customer.Phone</td>
+                    <td><button class="btn btn-info" @onclick="@(() => EditCustomer(customer))">Edit</button></td>
+                    <td><button class="btn btn-danger" @onclick="@(() => DeleteCustomer(customer))">Delete</button></td>
                 </tr>
             }
         </tbody>
@@ -44,7 +117,95 @@ else
 }
 
 @code {
-    private IEnumerable<CustomerVM> customers = [];
+    private List<CustomerVM> customers = [];
+    private bool IsLoading { get; set; }
+    private CreateCustomerVM createCustomerVM { get; set; } = new();
+    private CustomerVM? customerEditing = null;
 
-    protected override async Task OnInitializedAsync() => customers = await _customerService.GetAll();
+    protected override async Task OnInitializedAsync() => customers = (await _customerService.GetAll()).ToList();
+
+    private async Task OnKeyPress(KeyboardEventArgs args)
+    {
+        if (args.Key == "Enter")
+            await CreateCustomer();
+    }
+
+    private async Task CreateCustomer()
+    {
+        IsLoading = true;
+        _toastService.ShowInfo("Creating New Customer", "Info");
+        var created = await _customerService.Create(createCustomerVM);
+        if(created != Guid.Empty)
+        {
+            _toastService.ShowSuccess("Customer Created Successfully");
+            createCustomerVM = new();
+            customers = [];
+            customers = (await _customerService.GetAll()).ToList();
+        }
+        else
+        {
+            _toastService.ShowError("An error occurred, customer creation failed");
+        }
+
+        IsLoading = false;
+    }
+
+    private void EditCustomer(CustomerVM customer)
+    {
+        customerEditing = customer;
+        createCustomerVM.FullName = customer.FullName;
+        createCustomerVM.Email = customer.Email;
+        createCustomerVM.Address = customer.Address;
+        createCustomerVM.ZipCode = customer.Zipcode;
+        createCustomerVM.Phone = customer.Phone;
+    }
+
+    private async Task UpdateCustomer()
+    {
+        if(customerEditing == null)
+        {
+            _toastService.ShowError("System error occurred, customer to update not selected");
+            return;
+        }
+
+        IsLoading = true;
+        _toastService.ShowInfo("Updating Customer " + createCustomerVM.FullName);
+        var updated = await _customerService.Update(customerEditing.Id, createCustomerVM);
+        if(updated != null)
+        {
+            _toastService.ShowSuccess("Customer Updated Successfully");
+            customerEditing.FullName = createCustomerVM.FullName;
+            customerEditing.Email = createCustomerVM.Email;
+            customerEditing.Address = createCustomerVM.Address;
+            customerEditing.Zipcode = createCustomerVM.ZipCode;
+            customerEditing.Phone = createCustomerVM.Phone;
+            createCustomerVM = new();
+            customerEditing = null;
+        }
+        else
+        {
+            _toastService.ShowError("An error occurred, customer update failed");
+        }
+        IsLoading = false;
+    }
+
+    private void CancelUpdate()
+    {
+        createCustomerVM = new();
+        customerEditing = null;
+    }
+
+    private async Task DeleteCustomer(CustomerVM customer)
+    {
+        _toastService.ShowInfo("Deleting Customer " + customer.FullName);
+        var deleted = await _customerService.Delete(customer.Id);
+        if (deleted)
+        {
+            _toastService.ShowSuccess("Customer Deleted Successfully");
+            createCustomerVM = new();
+            customers.Remove(customer);
+        }
+        else
+            _toastService.ShowError("An error occurred, customer deletion failed");
+    }
 }

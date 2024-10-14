@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Softnotik.UI",
   "resources": {
-    "hash": "sha256-zsNj/zSWAHn6HBhAF4Qb7PQNUHri40HMQyWst6LkN2I=",
+    "hash": "sha256-pnRM+nYrqtu0TFqvkvTuURWF5/eL9q3bZMfWMqlSEQQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.29b85lek83.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -228,14 +228,14 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "Softnotik.UI.Components.wasm": "sha256-fxrHhyALrnuymyqjm+xq1fefYzNWvQVk0tgeKzonhyY=",
-      "Softnotik.UI.Shared.wasm": "sha256-x9lC87GmEU6KrhU0CZoHmnxGEggnsM6qijnU+xZeANk=",
-      "Softnotik.UI.wasm": "sha256-pm8D8JTwSUfsvzmD1xK2bmHOMTd4Mt1b+G1zEaO9WeY="
+      "Softnotik.UI.Components.wasm": "sha256-G9/XWsLgiuPsCsa7ZfQ9MvfaEeOGWGlBbrgSbH7ufcY=",
+      "Softnotik.UI.Shared.wasm": "sha256-7BGl5T3ZkfwJ1NsPDgc6fp/10EQHUC+K2Q4Xf+oLhTA=",
+      "Softnotik.UI.wasm": "sha256-bdrK9wks4ISJscNM12KT/shTg2Waqa4J6bIjKHhRqUs="
     },
     "pdb": {
-      "Softnotik.UI.Components.pdb": "sha256-ZDTvexsGaQIKd07i6rn5d+n+pl692/chXvIWnmuSSrI=",
-      "Softnotik.UI.Shared.pdb": "sha256-q0aFDWfr4DxfRwnMud7KXwxC9QuklYkFQoyVuwbVoV8=",
-      "Softnotik.UI.pdb": "sha256-5Jf+2Ad1wL8U0Tunj2oDRxIFClbvPBDpkBbyRTWk7L4="
+      "Softnotik.UI.Components.pdb": "sha256-25WxXgtS98nZ7orEl3//oQZAXpsztmPUMGbeU25O82E=",
+      "Softnotik.UI.Shared.pdb": "sha256-NiJSQGI5qhKyZJTC1DWhTgZRXeOp5pVszaudFOV2YHs=",
+      "Softnotik.UI.pdb": "sha256-dR0kORg0A1CqJA1t9aDNonMQBgtnacZ0UgsxnA1AQBU="
     }
   },
   "cacheBootResources": true,

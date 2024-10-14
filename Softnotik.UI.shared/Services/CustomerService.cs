@@ -7,36 +7,56 @@ namespace Softnotik.UI.Shared.Services
     public class CustomerService : ICustomerService
     {
         private readonly HttpClient _httpClient;
+        private readonly CustomerVM[] DummyData = [
+            new ()
+            {
+                Id = Guid.Parse("9d30327b-2fbd-4aef-a803-87b7d5c67c5e"),
+                FullName = "Dummy Customer A",
+                Email = "dummy@gmail.com",
+                Address = "Testing",
+                Zipcode = "1212121",
+                Phone = "080909091",
+            },
+            new ()
+            {
+                Id = Guid.Parse("5773d095-eabc-4859-9482-036fe5bd79ca"),
+                FullName = "Dummy Customer B",
+                Email = "dummyB@gmail.com",
+                Address = "Testing 3",
+                Zipcode = "121212113",
+                Phone = "0809090912",
+            }
+         ];
 
         public CustomerService(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
 
-        public Task<CustomerVM> GetById()
+        public async Task<CustomerVM> GetById(Guid id)
         {
-            throw new NotImplementedException();
+            return await _httpClient.GetAsync<CustomerVM>("customers/" + id);
         }
 
         public async Task<IEnumerable<CustomerVM>> GetAll()
         {
-            var dd = await _httpClient.GetAsync<IEnumerable<CustomerVM>>("customers");
+            return DummyData;
             return await _httpClient.GetAsync<IEnumerable<CustomerVM>>("customers");
         }
 
-        public Task<Guid> Create(CreateCustomerVM model)
+        public async Task<Guid> Create(CreateCustomerVM model)
         {
-            throw new NotImplementedException();
+            return await _httpClient.PostAsync<Guid>("customers", model);
         }
 
-        public Task<CustomerVM> Update(UpdateCustomerVM model)
+        public async Task<CustomerVM> Update(Guid id, UpdateCustomerVM model)
         {
-            throw new NotImplementedException();
+            return await _httpClient.PutAsync<CustomerVM>("customers/" + id, model);
         }
 
-        public Task<bool> Delete(Guid id)
+        public async Task<bool> Delete(Guid id)
         {
-            throw new NotImplementedException();
+            return await _httpClient.DeleteAsync<bool>("customers/" + id);
         }
     }
 }

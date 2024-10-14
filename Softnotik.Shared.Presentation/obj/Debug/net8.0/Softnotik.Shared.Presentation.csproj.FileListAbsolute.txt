@@ -8,9 +8,9 @@ C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentat
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\Softnotik.Shared.Presentation.AssemblyInfoInputs.cache
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\Softnotik.Shared.Presentation.AssemblyInfo.cs
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\Softnotik.Shared.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\Softnotik.Shared.Presentation.sourcelink.json
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\Softnoti.1DC9E272.Up2Date
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\Softnotik.Shared.Presentation.dll
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\refint\Softnotik.Shared.Presentation.dll
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\Softnotik.Shared.Presentation.pdb
 C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\ref\Softnotik.Shared.Presentation.dll
-C:\Users\Adebayo Salami\Documents\Work\Test\Softnotik\Softnotik.Shared.Presentation\obj\Debug\net8.0\Softnotik.Shared.Presentation.sourcelink.json
