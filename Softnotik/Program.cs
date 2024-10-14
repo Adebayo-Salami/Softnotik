@@ -8,6 +8,7 @@ using Softnotik.Shared.Presentation.Endpoints;
 using Softnotik.Modules.CustomerModule.Infrastructure;
 using Softnotik.Extensions;
 using Microsoft.EntityFrameworkCore;
+using Softnotik.Shared.Infrastructure.Data;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog((context, loggerConfig) => loggerConfig.ReadFrom.Configuration(context.Configuration));
@@ -22,7 +23,13 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddApplication([Softnotik.Modules.CustomerModule.Application.AssemblyReference.Assembly]);
 
-string databaseConnectionString = builder.Configuration.GetConnectionString("Database")!;
+var applicationSettingsSection = builder.Configuration.GetSection("ApplicationSettings");
+builder.Services.Configure<ApplicationSettings[]>(options =>
+{
+    applicationSettingsSection.Bind(options);
+});
+
+string databaseConnectionString = builder.Configuration.GetConnectionString(applicationSettingsSection.Get<ApplicationSettings[]>().First().DatabaseConnectionString)!;
 
 builder.Services.AddInfrastructure([], databaseConnectionString);
 builder.Configuration.AddModuleConfiguration(["customermodule"]);
