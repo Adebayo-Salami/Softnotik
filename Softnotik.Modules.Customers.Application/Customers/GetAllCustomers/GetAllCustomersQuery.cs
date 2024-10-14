@@ -3,5 +3,5 @@ using Softnotik.Shared.Application.Messaging;
 
 namespace Softnotik.Modules.CustomerModule.Application.Customers.GetAllCustomers
 {
-    public sealed record GetAllCustomersQuery() : IQuery<IEnumerable<CustomerVM>>;
+    public sealed record GetAllCustomersQuery() : IQuery<List<CustomerVM>>;
 }

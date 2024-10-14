@@ -6,9 +6,9 @@ using Softnotik.Shared.Domain;
 
 namespace Softnotik.Modules.CustomerModule.Application.Customers.GetAllCustomers
 {
-    internal sealed class GetAllCustomersQueryHandler(ICustomerRepository customerRepository) : IQueryHandler<GetAllCustomersQuery, IEnumerable<CustomerVM>>
+    internal sealed class GetAllCustomersQueryHandler(ICustomerRepository customerRepository) : IQueryHandler<GetAllCustomersQuery, List<CustomerVM>>
     {
-        public async Task<Result<IEnumerable<CustomerVM>>> Handle(GetAllCustomersQuery request, CancellationToken cancellationToken)
+        public async Task<Result<List<CustomerVM>>> Handle(GetAllCustomersQuery request, CancellationToken cancellationToken)
         {
             var customers = await customerRepository.GetAllAsync(cancellationToken);
             return customers.Select(x => (CustomerVM)x).ToList();

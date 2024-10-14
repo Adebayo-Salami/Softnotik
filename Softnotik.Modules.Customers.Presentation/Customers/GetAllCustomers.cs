@@ -16,7 +16,7 @@ namespace Softnotik.Modules.CustomerModule.Presentation.Customers
         {
             app.MapGet("customers", async (ISender sender) =>
             {
-                Result<IEnumerable<CustomerVM>> result = await sender.Send(new GetAllCustomersQuery());
+                Result<List<CustomerVM>> result = await sender.Send(new GetAllCustomersQuery());
                 return result.Match(Results.Ok, ApiResults.Problem);
             })
             .WithTags(Tags.Customers);
